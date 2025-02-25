@@ -16,4 +16,9 @@ public class Test01Controller {
     public void getAge(){
 
     }
+
+    @RequestMapping(value = "/getSex",method = RequestMethod.GET)
+    public void getSex(){
+
+    }
 }
