@@ -12,7 +12,10 @@ public class UserContoller {
     public void addUser(){
 
     }
+    @PostMapping("/add2")
+    public void addUser2(){
 
+    }
     @PostMapping("/update")
     public void updateUser(){
 
